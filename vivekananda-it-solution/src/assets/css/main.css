@@ -957,6 +957,7 @@ section,
 .clients .swiper-slide img {
   transition: 0.3s;
   padding: 0 10px;
+  scale: 0.3;
 }
 
 .clients .swiper-slide img:hover {
