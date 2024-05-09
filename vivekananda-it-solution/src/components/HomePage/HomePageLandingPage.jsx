@@ -17,7 +17,7 @@ export default function HomePageLandingPage() {
                             </div>
                         </div>
                         <div className="col-lg-6 order-1 order-lg-2 hero-img">
-                            <img src="hero-img.png" className="img-fluid animated" alt="" />
+                            <img src="img/hero-img.png" className="img-fluid animated" alt="" />
                             {/* <img src="https://bootstrapmade.com/demo/templates/Arsha/assets/img/hero-img.png" className="img-fluid animated" alt=""/> */}
                         </div>
                     </div>

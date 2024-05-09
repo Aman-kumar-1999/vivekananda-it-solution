@@ -29,35 +29,35 @@ export default function () {
     const brandData = [
         {
           id: 1,
-          imageurl: "clients/client-1.png"
+          imageurl: "img/clients/client-1.png"
         },
         {
           id: 2,
-          imageurl: "clients/client-2.png"
+          imageurl: "img/clients/client-2.png"
         },
         {
           id: 3,
-          imageurl: "clients/client-3.png"
+          imageurl: "img/clients/client-3.png"
         },
         {
           id: 4,
-          imageurl: "clients/client-4.png"
+          imageurl: "img/clients/client-4.png"
         }
         , {
           id: 5,
-          imageurl: "clients/client-5.png"
+          imageurl: "img/clients/client-5.png"
         },
         {
           id: 6,
-          imageurl: "clients/client-6.png"
+          imageurl: "img/clients/client-6.png"
         },
         {
           id: 7,
-          imageurl: "clients/client-7.png"
+          imageurl: "img/clients/client-7.png"
         },
         {
           id: 8,
-          imageurl: "clients/client-8.png"
+          imageurl: "img/clients/client-8.png"
         }
 
       ]
@@ -71,7 +71,7 @@ export default function () {
 
                     <div className="swiper">
 
-                        <Carousel autoPlay responsive={responsive} className='swiper-wrapper align-items-center'>
+                        <Carousel autoPlay arrows={false} infinite={true} responsive={responsive} className='swiper-wrapper align-items-center'>
                             {
                                 brandData.map(item => (
                                     <img style={{ width: "200px", height: "50px" }} name={item.name} src={item.imageurl} />
