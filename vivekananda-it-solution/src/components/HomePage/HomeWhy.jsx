@@ -1,9 +1,23 @@
-import React, { useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 
+// const ProgressBar = ({ percentage }) => {
+//   return (
+//     <div className="progress-bar">
+//       <div className="progress" style={{ width: `${percentage}%` }}></div>
+//     </div>
+//   );
+// };
+
 export default function HomeWhy() {
+
+  const [progress, setProgress] = useState(0);
+
+  // useEffect(() => {
+   
+  // }, []);
 
   useEffect(() => {
     AOS.init({
@@ -12,21 +26,22 @@ export default function HomeWhy() {
       once: true // Whether animation should only happen once
       // More options can be found in the AOS documentation
     });
+    
   }, []);
 
-  let skillsAnimation = document.querySelectorAll('.skills-animation');
-  skillsAnimation.forEach((item) => {
-    new Waypoint({
-      element: item,
-      offset: '80%',
-      handler: function (direction) {
-        let progress = item.querySelectorAll('.progress .progress-bar');
-        progress.forEach(el => {
-          el.style.width = el.getAttribute('aria-valuenow') + '%';
-        });
-      }
-    });
-  });
+  // let skillsAnimation = document.querySelectorAll('.skills-animation');
+  // skillsAnimation.forEach((item) => {
+  //   new Waypoint({
+  //     element: item,
+  //     offset: '80%',
+  //     handler: function (direction) {
+  //       let progress = item.querySelectorAll('.progress .progress-bar');
+  //       progress.forEach(el => {
+  //         el.style.width = el.getAttribute('aria-valuenow') + '%';
+  //       });
+  //     }
+  //   });
+  // });
 
 
   return (
@@ -109,18 +124,20 @@ export default function HomeWhy() {
               </p>
 
               <div className="skills-content skills-animation">
+                
 
                 <div className="progress">
-                  <span className="skill"><span>HTML</span> <i className="val">100%</i></span>
+                  <span className="skill"><span>java</span> <i className="val">100%</i></span>
                  
                   <div className="progress-bar-wrap">
                     <div className="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
                 </div>
-                {/* <!-- End Skills Item --> */}
+
+               
 
                 <div className="progress">
-                  <span className="skill"><span>CSS</span> <i className="val">90%</i></span>
+                  <span className="skill"><span>React JS</span> <i className="val">90%</i></span>
                   <div className="progress-bar-wrap">
                     <div className="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
@@ -136,7 +153,7 @@ export default function HomeWhy() {
                 {/* <!-- End Skills Item --> */}
 
                 <div className="progress">
-                  <span className="skill"><span>Photoshop</span> <i className="val">55%</i></span>
+                  <span className="skill"><span>Angular JS</span> <i className="val">55%</i></span>
                   <div className="progress-bar-wrap">
                     <div className="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
