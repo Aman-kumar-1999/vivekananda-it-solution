@@ -38,10 +38,10 @@ export default function Header() {
                             </li> */}
                             <li><a href="index.html#contact">Contact</a></li>
                         </ul>
-                        <i className="mobile-nav-toggle d-xl-none bi bi-list"></i>
+                        {/* <i className="mobile-nav-toggle d-xl-none bi bi-list"></i> */}
                     </nav>
 
-                    <a className="btn-getstarted" href="index.html#about">Get Started</a>
+                    {/* <a className="btn-getstarted" href="index.html#about">Get Started</a> */}
 
                 </div>
             </header>

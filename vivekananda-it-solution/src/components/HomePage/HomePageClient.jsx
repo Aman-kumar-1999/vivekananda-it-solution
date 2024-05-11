@@ -20,8 +20,8 @@ export default function () {
           items: 2
         },
         mobile: {
-          breakpoint: { max: 464, min: 0 },
-          items: 1
+          breakpoint: { max: 400, min: 0 },
+          items: 2
         }
       };
 
@@ -71,10 +71,10 @@ export default function () {
 
                     <div className="swiper">
 
-                        <Carousel autoPlay arrows={false} infinite={true} responsive={responsive} className='swiper-wrapper align-items-center'>
+                        <Carousel autoPlay arrows={false} infinite={true} responsive={responsive} className=''>
                             {
                                 brandData.map(item => (
-                                    <img style={{ width: "200px", height: "50px" }} name={item.name} src={item.imageurl} />
+                                    <img style={{ width: "170px", height: "50px"}} name={item.name} src={item.imageurl} />
                                 ))
                             }
                             
