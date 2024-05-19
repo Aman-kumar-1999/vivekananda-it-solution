@@ -59,7 +59,7 @@ export default function Footer() {
 
             <div class="col-lg-4 col-md-12">
               <h4>Follow Us</h4>
-              <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+              <p>Stay connected with Vivekananda It Solution and get the latest updates, news, and insights by following us on our social media channels:</p>
               <div class="social-links d-flex">
                 <a href=""><i class="bi bi-twitter"></i></a>
                 <a href=""><i class="bi bi-facebook"></i></a>

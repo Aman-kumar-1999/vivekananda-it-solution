@@ -32,18 +32,28 @@ export default function HomePageAbout() {
 
                         <div className="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                magna aliqua.
+                            Welcome to Vivekananda It Solution, where innovation meets excellence in software solutions. At Vivekananda It Solution, we believe in pushing the boundaries of technology to create impactful solutions that empower businesses and individuals alike
                             </p>
                             <ul>
-                                <li><i className="bi bi-check2-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-                                <li><i className="bi bi-check2-circle"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-                                <li><i className="bi bi-check2-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo</span></li>
+                                <li><i className="bi bi-check2-circle"></i> <span>Expertise: With years of experience and a proven track record of success, we have the expertise to tackle even the most complex software challenges.</span></li>
+                                <li><i className="bi bi-check2-circle"></i> <span>Innovation: We stay ahead of the curve by embracing emerging technologies and innovative practices to deliver solutions that drive tangible results.</span></li>
+                                <li><i className="bi bi-check2-circle"></i> <span>Collaboration: We believe in fostering strong partnerships with our clients, working closely with them every step of the way to ensure their satisfaction and success.</span></li>
+                            
+                                <li><i className="bi bi-check2-circle"></i> <span>Quality: We are committed to delivering high-quality, reliable software solutions that stand the test of time and exceed industry standards.</span></li>
+                            
+                                <li><i className="bi bi-check2-circle"></i> <span>Customer Satisfaction: Our ultimate goal is the success and satisfaction of our clients. We go above and beyond to ensure that every project is delivered on time, within budget, and to the highest standard of quality.</span></li>
+                            
                             </ul>
                         </div>
 
                         <div className="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-                            <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                            <p>Our mission is simple: to revolutionize the way businesses operate by providing cutting-edge software solutions that streamline processes, enhance productivity, and drive growth. We are committed to delivering innovative products that exceed expectations and redefine industry standards. </p>
+                            
+                            <p>We specialize in developing custom software solutions tailored to meet the unique needs of our clients. Whether you're a startup looking to build your digital presence or an enterprise seeking to optimize operations, we have the expertise to bring your vision to life. From web and mobile applications to enterprise software and cloud solutions, we offer a comprehensive suite of services designed to drive success in today's digital landscape. </p>
+                            
+                            <p>At Vivekananda It Solution, we believe in a client-centric approach to software development. We prioritize understanding our clients' goals, challenges, and requirements to deliver solutions that not only meet but exceed their expectations. Our iterative development process ensures transparency, flexibility, and continuous improvement, allowing us to adapt to evolving needs and deliver superior results. </p>
+                            
+                            
                             <a href="#" className="read-more"><span>Read More</span><i className="bi bi-arrow-right"></i></a>
                         </div>
 
