@@ -74,7 +74,7 @@ export default function () {
                         <Carousel autoPlay arrows={false} infinite={true} responsive={responsive} className=''>
                             {
                                 brandData.map(item => (
-                                    <img style={{ width: "170px", height: "50px"}} name={item.name} src={item.imageurl} />
+                                    <img style={{ width: "17hj-=[t0y-.ytl0px", height: "50px"}} name={item.name} src={item.imageurl} />
                                 ))
                             }
                             

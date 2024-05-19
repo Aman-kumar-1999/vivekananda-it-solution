@@ -56,9 +56,9 @@ export default function HomeWhy() {
             <div className="col-lg-7 d-flex flex-column justify-content-center order-2 order-lg-1">
 
               <div className="content px-xl-5" data-aos="fade-up" data-aos-delay="100">
-                <h3 className=""><span className="">Eum ipsam laborum deleniti </span><strong>velit pariatur architecto aut nihil</strong></h3>
+                <h3 className=""><span className="">How </span><strong>& Why</strong></h3>
                 <p className="">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
+                At Vivekananda It Solution, we believe in a collaborative approach to software development. From conceptualization to deployment, we work closely with our clients to ensure that every solution is meticulously crafted to meet their specific requirements and exceed expectations.
                 </p>
               </div>
 
@@ -66,27 +66,43 @@ export default function HomeWhy() {
 
                 <div className="faq-item faq-active">
 
-                  <h3><span>01</span> Non consectetur a erat nam at lectus urna duis?</h3>
+                  <h3><span>01</span> How to unlock the full potential of your business ?</h3>
                   <div className="faq-content" >
-                    <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+                    <p>You require custom software development, cloud migration, or IT consulting, our team of experts is dedicated to delivering tailored solutions that align with your unique objectives and drive tangible results.</p>
                   </div>
                   <i className="faq-toggle bi bi-chevron-right"></i>
                 </div>
                 {/* <!-- End Faq item--> */}
 
                 <div className="faq-item">
-                  <h3><span>02</span> Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</h3>
+                  <h3><span>02</span>Innovation: Stay ahead of the curve with our innovative software solutions designed to address the challenges of tomorrow.</h3>
                   <div className="faq-content">
-                    <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                    <p>Expertise: Benefit from the collective expertise of our skilled team of software engineers, developers, and IT professionals.</p>
                   </div>
                   <i className="faq-toggle bi bi-chevron-right"></i>
                 </div>
                 {/* <!-- End Faq item--> */}
 
                 <div className="faq-item">
-                  <h3><span>03</span> Dolor sit amet consectetur adipiscing elit pellentesque?</h3>
+                  <h3><span>03</span>Customer-Centricity: Your success is our priority. We are committed to providing exceptional customer service and support at every step of your journey.</h3>
                   <div className="faq-content">
-                    <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</p>
+                    {/* <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</p> */}
+                  </div>
+                  <i className="faq-toggle bi bi-chevron-right"></i>
+                </div>
+                {/* <!-- End Faq item--> */}
+                <div className="faq-item">
+                  <h3><span>04</span>Quality Assurance: Rest assured that our solutions undergo rigorous testing and quality assurance measures to ensure optimal performance and reliability.</h3>
+                  <div className="faq-content">
+                    {/* <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</p> */}
+                  </div>
+                  <i className="faq-toggle bi bi-chevron-right"></i>
+                </div>
+                {/* <!-- End Faq item--> */}
+                <div className="faq-item">
+                  <h3><span>05</span>Value: Experience unparalleled value with our cost-effective solutions that deliver maximum ROI.</h3>
+                  <div className="faq-content">
+                    {/* <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</p> */}
                   </div>
                   <i className="faq-toggle bi bi-chevron-right"></i>
                 </div>
@@ -118,9 +134,9 @@ export default function HomeWhy() {
 
             <div className="col-lg-6 pt-4 pt-lg-0 content">
 
-              <h3>Voluptatem dignissimos provident quasi corporis voluptas</h3>
+              <h3> Technologies to build & support our client </h3>
               <p className="fst-italic">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              At  Vivekananda It Solution, we leverage a diverse range of cutting-edge technologies to build powerful, scalable, and user-friendly websites for our clients. Our team of skilled developers is proficient in the following technologies:
               </p>
 
               <div className="skills-content skills-animation">
