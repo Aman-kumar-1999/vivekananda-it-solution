@@ -17,7 +17,7 @@ export default function HomeSearch() {
                                     <option selected>Category</option>
                                     <option value="1">Developer</option>
                                     <option value="2">Support</option>
-                                    <option value="3">analise</option>
+                                    <option value="3">Data analysis</option>
                                 </select>
                             </div>
                             <div class="col-md-4">
