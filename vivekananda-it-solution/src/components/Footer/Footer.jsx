@@ -28,7 +28,8 @@ export default function Footer() {
             <div class="col-lg-4 col-md-6 footer-about">
               <a href="index.html" class="d-flex align-items-center">
                 {/* <span class="sitename">Vivekananda It Solution</span> */}
-                <img src="img/VIS-LOGO.png" className="logo-img" alt="" /><br/>
+               
+                <img src="img/VIS-LOGO.png" className="logo-img" alt="#" /><br/>
                            
               </a>
               <div class="footer-contact pt-3">
