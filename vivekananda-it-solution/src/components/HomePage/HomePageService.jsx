@@ -375,7 +375,7 @@ export default function HomePageService() {
                 </div>
                 {/* <!-- End testimonial item --> */}
 
-                <div class="swiper-slide">
+                {/* <div class="swiper-slide">
                   <div class="testimonial-item">
                     <img src="img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="" />
                     <h3>Matt Brandon</h3>
@@ -389,7 +389,7 @@ export default function HomePageService() {
                       <i class="bi bi-quote quote-icon-right"></i>
                     </p>
                   </div>
-                </div>
+                </div> */}
                 {/* <!-- End testimonial item --> */}
 
                 <div class="swiper-slide">

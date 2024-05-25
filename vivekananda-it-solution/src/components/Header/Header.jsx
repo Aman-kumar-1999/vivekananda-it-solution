@@ -1,4 +1,5 @@
 import React from 'react'
+import './Header.css'
 
 export default function Header() {
     return (
@@ -8,7 +9,11 @@ export default function Header() {
 
                     <a href="index.html" className=" d-flex align-items-center me-auto">
 
-                        <h1 className="sitename">Vivekananda It Solution</h1>
+                        <h1 className="sitename">
+                        
+                            <img src="img/VIS-LOGO.png" className="logo-img" alt="" /><br/>
+                           
+                        </h1>
                     </a>
 
                     <nav id="navmenu" className="navmenu">
