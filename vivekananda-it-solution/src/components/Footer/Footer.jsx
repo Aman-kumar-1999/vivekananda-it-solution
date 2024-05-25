@@ -27,11 +27,13 @@ export default function Footer() {
           <div class="row gy-4">
             <div class="col-lg-4 col-md-6 footer-about">
               <a href="index.html" class="d-flex align-items-center">
-                <span class="sitename">Vivekananda It Solution</span>
+                {/* <span class="sitename">Vivekananda It Solution</span> */}
+                <img src="img/VIS-LOGO.png" className="logo-img" alt="" /><br/>
+                           
               </a>
               <div class="footer-contact pt-3">
                 <p>Boothnath, Patna</p>
-                <p>Bihar, INDIA 800020</p>
+                <p>Bihar, INDIA 800026</p>
                 <p class="mt-3"><strong>Phone:</strong> <span>+91 9128984478</span></p>
                 <p><strong>Email:</strong> <span>info@vivekanandaitsolution.com</span></p>
               </div>

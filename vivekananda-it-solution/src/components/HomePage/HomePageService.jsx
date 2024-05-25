@@ -375,7 +375,7 @@ export default function HomePageService() {
                 </div>
                 {/* <!-- End testimonial item --> */}
 
-                <div class="swiper-slide">
+                {/* <div class="swiper-slide">
                   <div class="testimonial-item">
                     <img src="img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="" />
                     <h3>Matt Brandon</h3>
@@ -389,7 +389,7 @@ export default function HomePageService() {
                       <i class="bi bi-quote quote-icon-right"></i>
                     </p>
                   </div>
-                </div>
+                </div> */}
                 {/* <!-- End testimonial item --> */}
 
                 <div class="swiper-slide">
@@ -443,7 +443,7 @@ export default function HomePageService() {
                   <i class="bi bi-geo-alt flex-shrink-0"></i>
                   <div>
                     <h3>Address</h3>
-                    <p>Boothnath, Patna, Bihar, IN 800020</p>
+                    <p>Boothnath, Patna, Bihar, IN 800026</p>
 
                   </div>
                 </div>
