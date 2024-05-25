@@ -31,7 +31,7 @@ export default function Footer() {
               </a>
               <div class="footer-contact pt-3">
                 <p>Boothnath, Patna</p>
-                <p>Bihar, INDIA 800020</p>
+                <p>Bihar, INDIA 800026</p>
                 <p class="mt-3"><strong>Phone:</strong> <span>+91 9128984478</span></p>
                 <p><strong>Email:</strong> <span>info@vivekanandaitsolution.com</span></p>
               </div>

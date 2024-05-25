@@ -15,8 +15,9 @@ export default function HomePageLandingPage() {
                                 <a href="#about" className="btn-get-started">Get Started</a>
                                 <span> &nbsp; &nbsp; &nbsp;</span>
                                 <a href="#about" className="btn-get-started">Hiring Portal</a>
-                                {/* <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" className="glightbox btn-watch-video d-flex align-items-center"><i className="bi bi-play-circle"></i><span>Watch Video</span></a> */}
-                            </div>
+                                <span> &nbsp; &nbsp; &nbsp;</span>
+                                <a href="#about" className="btn-get-started">Learn With Us</a>
+                                  </div>
                         </div>
                         <div className="col-lg-6 order-1 order-lg-2 hero-img">
                             <img src="img/hero-img.png" className="img-fluid animated" alt="" />

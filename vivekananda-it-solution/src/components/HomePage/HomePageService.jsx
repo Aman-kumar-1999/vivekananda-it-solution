@@ -443,7 +443,7 @@ export default function HomePageService() {
                   <i class="bi bi-geo-alt flex-shrink-0"></i>
                   <div>
                     <h3>Address</h3>
-                    <p>Boothnath, Patna, Bihar, IN 800020</p>
+                    <p>Boothnath, Patna, Bihar, IN 800026</p>
 
                   </div>
                 </div>
