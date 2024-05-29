@@ -1,6 +1,29 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
+
+
+  const scollClickService = () => {
+    window.scrollTo(100, 4400);
+  };
+
+  const scrolHome = () => {
+    window.scrollTo(100, 100);
+  }
+
+  const scollClickAbout = () => {
+    window.scrollTo(100, 730);
+  };
+
+  const scrolHomeTeams = () => {
+    window.scrollTo(100, 8000);
+  }
+
+  const scollClickContact = () => {
+    window.scrollTo(100, 10370);
+  };
+
   return (
     <>
 
@@ -26,15 +49,15 @@ export default function Footer() {
         <div class="container footer-top">
           <div class="row gy-4">
             <div class="col-lg-4 col-md-6 footer-about">
-              <a href="index.html" class="d-flex align-items-center">
+              <Link href="index.html" class="d-flex align-items-center">
                 {/* <span class="sitename">Vivekananda It Solution</span> */}
-               
-                <img src="img/VIS-LOGO.png" className="logo-img" alt="#"  /><br/>
-                           
-              </a>
+
+                <img src="img/VIS-LOGO.png" className="logo-img" alt="#" /><br />
+
+              </Link>
               <div class="footer-contact pt-3">
-                <p>Boothnath, Patna</p>
-                <p>Bihar, INDIA 800026</p>
+                <p>Naya Tola, Dabur Gali,</p>
+                <p> Kumhrar, Patna - 800026</p>
                 <p class="mt-3"><strong>Phone:</strong> <span>+91 9128984478</span></p>
                 <p><strong>Email:</strong> <span>info@vivekanandaitsolution.com</span></p>
               </div>
@@ -43,20 +66,20 @@ export default function Footer() {
             <div class="col-lg-2 col-md-3 footer-links">
               <h4>Useful Links</h4>
               <ul>
-                <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+                <li><i class="bi bi-chevron-right"></i> <Link to={""} onClick={scrolHome}>Home</Link></li>
+                <li><i class="bi bi-chevron-right"></i> <Link to={""} onClick={scollClickAbout}>About us</Link></li>
+                <li><i class="bi bi-chevron-right"></i> <Link to={""} onClick={scollClickService}>Services</Link></li>
+                <li><i class="bi bi-chevron-right"></i> <Link to={""} onClick={scrolHomeTeams}>Terms of service</Link></li>
               </ul>
             </div>
 
             <div class="col-lg-2 col-md-3 footer-links">
               <h4>Our Services</h4>
               <ul>
-                <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
+                <li><i class="bi bi-chevron-right"></i> <Link to={""}>Web Design</Link></li>
+                <li><i class="bi bi-chevron-right"></i> <Link to={""}>Web Development</Link></li>
+                <li><i class="bi bi-chevron-right"></i> <Link to={""}>Product Management</Link></li>
+                <li><i class="bi bi-chevron-right"></i> <Link to={""}>Marketing</Link></li>
               </ul>
             </div>
 
@@ -64,10 +87,10 @@ export default function Footer() {
               <h4>Follow Us</h4>
               <p>Stay connected with Vivekananda It Solution and get the latest updates, news, and insights by following us on our social media channels:</p>
               <div class="social-links d-flex">
-                <a href=""><i class="bi bi-twitter"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
-                <a href=""><i class="bi bi-linkedin"></i></a>
+                <Link href=""><i class="bi bi-twitter"></i></Link>
+                <Link href=""><i class="bi bi-facebook"></i></Link>
+                <Link href=""><i class="bi bi-instagram"></i></Link>
+                <Link href=""><i class="bi bi-linkedin"></i></Link>
               </div>
             </div>
 
@@ -81,7 +104,7 @@ export default function Footer() {
     <!-- You can delete the links only if you've purchased the pro version. -->
     <!-- Licensing information: https://bootstrapmade.com/license/ -->
     <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] --> */}
-            Designed by <a href="/">Vivekananda It Solution</a>
+            Designed by <Link href="/">Vivekananda It Solution</Link>
           </div>
         </div>
 

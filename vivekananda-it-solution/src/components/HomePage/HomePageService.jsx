@@ -79,10 +79,10 @@ export default function HomePageService() {
             <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
               <div class="service-item position-relative">
                 <div class="icon">
-                <i class="material-symbols-outlined ">
-                engineering
+                  <i class="material-symbols-outlined ">
+                    engineering
                   </i>
-                  </div>
+                </div>
                 <h4><a href="" class="stretched-link">Custom Software Development</a></h4>
                 <p>Unlock the full potential of your business with our custom software development services. Whether you need a new application built from scratch or enhancements to your existing software, our team of experienced developers will work closely with you to understand your unique requirements and deliver tailored solutions that align with your business objectives.</p>
               </div>
@@ -92,8 +92,8 @@ export default function HomePageService() {
             <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
               <div class="service-item position-relative">
                 <div class="icon">
-                <i class="material-symbols-outlined ">
-                  public
+                  <i class="material-symbols-outlined ">
+                    public
                   </i>
 
                 </div>
@@ -106,8 +106,8 @@ export default function HomePageService() {
             <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
               <div class="service-item position-relative">
                 <div class="icon">
-                  
-                <i class="material-symbols-outlined ">
+
+                  <i class="material-symbols-outlined ">
                     cloud
                   </i></div>
                 <h4><a href="" class="stretched-link">Cloud Migration and Integration</a></h4>
@@ -119,10 +119,10 @@ export default function HomePageService() {
             <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
               <div class="service-item position-relative">
                 <div class="icon">
-                <i class="material-symbols-outlined ">
+                  <i class="material-symbols-outlined ">
                     computer
                   </i>
-                  </div>
+                </div>
                 <h4><a href="" class="stretched-link">IT Consulting and Strategy</a></h4>
                 <p>Stay ahead of the curve with our IT consulting and strategy services. Our team of seasoned IT professionals will work closely with you to assess your current IT infrastructure, identify areas for improvement, and develop a comprehensive strategy to optimize your technology investments and achieve your business goals.</p>
               </div>
@@ -144,10 +144,10 @@ export default function HomePageService() {
             <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
               <div class="service-item position-relative">
                 <div class="icon">
-                <i class="material-symbols-outlined ">
-                support_agent
+                  <i class="material-symbols-outlined ">
+                    support_agent
                   </i>
-                  </div>
+                </div>
                 <h4><a href="" class="stretched-link">Support and Maintenance</a></h4>
                 <p>Stay agile and responsive with our support and maintenance services. Whether you need troubleshooting assistance, software updates, or ongoing technical support, our dedicated support team is available around the clock to ensure that your software applications continue to operate smoothly and efficiently, minimizing downtime and maximizing productivity.</p>
               </div>
@@ -156,10 +156,10 @@ export default function HomePageService() {
             <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
               <div class="service-item position-relative">
                 <div class="icon">
-                <i class="material-symbols-outlined ">
-                transition_fade
+                  <i class="material-symbols-outlined ">
+                    transition_fade
                   </i>
-                  </div>
+                </div>
                 <h4><a href="" class="stretched-link">UX/UI Design</a></h4>
                 <p>Deliver exceptional user experiences with our UX/UI design services. Our team of talented designers combines creativity with usability principles to craft visually stunning and intuitive user interfaces that engage and delight users, driving customer satisfaction and loyalty.</p>
               </div>
@@ -168,10 +168,10 @@ export default function HomePageService() {
             <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
               <div class="service-item position-relative">
                 <div class="icon">
-                <i class="material-symbols-outlined ">
-                database
+                  <i class="material-symbols-outlined ">
+                    database
                   </i>
-                  </div>
+                </div>
                 <h4><a href="" class="stretched-link">Data Analytics and Business Intelligence</a></h4>
                 <p>Harness the power of data to gain valuable insights and make informed business decisions with our data analytics and business intelligence services. From data visualization to predictive analytics, our experts will help you unlock the full potential of your data, enabling you to identify trends, spot opportunities, and drive growth.</p>
               </div>
@@ -200,7 +200,7 @@ export default function HomePageService() {
 
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
               <div class="team-member d-flex align-items-start">
-                <div class="pic"><img src="img/AmanKInsta2.jpg" class="img-fluid" alt="" /></div>
+                <div class="pic"><img src="img/logo.png" class="img-fluid" alt="" /></div>
                 <div class="member-info">
                   <h4>Aman Kumar</h4>
                   <span>Chief Executive Officer</span>
@@ -280,33 +280,19 @@ export default function HomePageService() {
 
 
       {/* <!-- Testimonials Section --> */}
-      <section id="testimonials" class="testimonials section">
+      {/* <section id="testimonials" class="testimonials section">
 
-        {/* <!-- Section Title --> */}
+
         <div class="container section-title" data-aos="fade-up">
           <h2>Testimonials</h2>
           <p>Partnering with Vivekananda It Solution has been a game-changer for our business. Their innovative software solutions have revolutionized our operations, driving efficiency, and productivity to new heights.</p>
         </div>
-        {/* <!-- End Section Title --> */}
+
 
         <div class="container" data-aos="fade-up" data-aos-delay="100">
 
           <div class="swiper">
-            {/* <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              }
-            }
-          </script> */}
+
             <div class="swiper-wrapper">
 
               <Carousel autoPlay arrows={false} infinite={true} responsive={responsive} className='swiper-wrapper align-items-center'>
@@ -315,7 +301,7 @@ export default function HomePageService() {
 
                 <div class="swiper-slide">
                   <div class="testimonial-item">
-                    <img src="img/Amankumar.png" class="testimonial-img" alt="" />
+                    <img src="img/logo.png" class="testimonial-img" alt="" />
                     <h3>Aman Kumar</h3>
                     <h4>Ceo &amp; Founder</h4>
                     <div class="stars">
@@ -339,7 +325,7 @@ export default function HomePageService() {
                     </p>
                   </div>
                 </div>
-                {/* <!-- End testimonial item --> */}
+
 
                 <div class="swiper-slide">
                   <div class="testimonial-item">
@@ -356,7 +342,7 @@ export default function HomePageService() {
                     </p>
                   </div>
                 </div>
-                {/* <!-- End testimonial item --> */}
+
 
                 <div class="swiper-slide">
                   <div class="testimonial-item">
@@ -373,24 +359,7 @@ export default function HomePageService() {
                     </p>
                   </div>
                 </div>
-                {/* <!-- End testimonial item --> */}
 
-                {/* <div class="swiper-slide">
-                  <div class="testimonial-item">
-                    <img src="img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="" />
-                    <h3>Matt Brandon</h3>
-                    <h4>Freelancer</h4>
-                    <div class="stars">
-                      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                    </div>
-                    <p>
-                      <i class="bi bi-quote quote-icon-left"></i>
-                      <span>As a freelance software developer, collaborating with  Vivekananda It Solution has been an absolute pleasure. Their professionalism, communication, and commitment to excellence set them apart in the industry.</span>
-                      <i class="bi bi-quote quote-icon-right"></i>
-                    </p>
-                  </div>
-                </div> */}
-                {/* <!-- End testimonial item --> */}
 
                 <div class="swiper-slide">
                   <div class="testimonial-item">
@@ -409,7 +378,7 @@ export default function HomePageService() {
                 </div>
               </Carousel>
 
-              {/* <!-- End testimonial item --> */}
+              
 
             </div>
             <div class="swiper-pagination"></div>
@@ -417,7 +386,7 @@ export default function HomePageService() {
 
         </div>
 
-      </section>
+      </section> */}
       {/* <!-- /Testimonials Section --> */}
 
 
@@ -443,7 +412,7 @@ export default function HomePageService() {
                   <i class="bi bi-geo-alt flex-shrink-0"></i>
                   <div>
                     <h3>Address</h3>
-                    <p>Boothnath, Patna, Bihar, IN 800026</p>
+                    <p>Naya Tola, Dabur Gali, Kumhrar, Patna - 800026</p>
 
                   </div>
                 </div>
