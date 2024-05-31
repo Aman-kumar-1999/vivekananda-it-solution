@@ -15,6 +15,7 @@
     "@mui/material": "^5.15.18",
     "@reduxjs/toolkit": "^2.2.5",
     "aos": "^2.3.4",
+    "appwrite": "^14.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.51.5",

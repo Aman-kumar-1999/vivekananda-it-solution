@@ -4,6 +4,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import { Link } from 'react-router-dom';
 
 export default function HomePageService() {
   useEffect(() => {
@@ -76,7 +77,7 @@ export default function HomePageService() {
 
           <div class="row gy-4">
 
-            <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <Link to={'addVendors'} class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
               <div class="service-item position-relative">
                 <div class="icon">
                   <i class="material-symbols-outlined ">
@@ -86,7 +87,7 @@ export default function HomePageService() {
                 <h4><a href="" class="stretched-link">Custom Software Development</a></h4>
                 <p>Unlock the full potential of your business with our custom software development services. Whether you need a new application built from scratch or enhancements to your existing software, our team of experienced developers will work closely with you to understand your unique requirements and deliver tailored solutions that align with your business objectives.</p>
               </div>
-            </div>
+            </Link>
             {/* <!-- End Service Item --> */}
 
             <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">

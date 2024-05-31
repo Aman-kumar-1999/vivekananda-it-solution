@@ -21,6 +21,7 @@ import './index.css'
 // import store from './store/store.js'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import HomePage from './components/HomePage/HomePage.jsx'
+import AddVendors from './components/Vendor/AddVendors.jsx'
 // import Home from './pages/Home.jsx'
 // import { AuthLayout, Login } from './components/index.js'
 
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
         {
             path: "/",
             element: <HomePage />,
+        },
+        {
+            path: "/addVendors",
+            element: <AddVendors />,
         },
         // {
         //     path: "/login",
