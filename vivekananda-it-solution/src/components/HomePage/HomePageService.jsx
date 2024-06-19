@@ -186,6 +186,10 @@ export default function HomePageService() {
       </section>
 
 
+
+      {/* <!-- /Team Section --> */}
+      {/* <!-- /Services Section --> */}
+
       <section id="team" class="team section">
 
         {/* <!-- Section Title --> */}
@@ -276,8 +280,6 @@ export default function HomePageService() {
         </div>
 
       </section>
-      {/* <!-- /Team Section --> */}
-      {/* <!-- /Services Section --> */}
 
 
       {/* <!-- Testimonials Section --> */}

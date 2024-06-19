@@ -16,6 +16,9 @@ export default function HomePageAbout() {
 
     return (
         <>
+            <br />
+                <br />
+                <br />
 
             {/* <!-- About Section --> */}
             <section id="about" className="about section">
