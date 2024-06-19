@@ -22,6 +22,10 @@ import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import HomePage from './components/HomePage/HomePage.jsx'
 import AddVendors from './components/Vendor/AddVendors.jsx'
+import ServicesPageCustomePage from './components/ServicesPage/ServicesPageCustomePage.jsx'
+import HomePageAbout from './components/HomePage/HomePageAbout.jsx'
+import TeamsPage from './components/HomePage/TeamsPage.jsx'
+import Contact from './components/HomePage/Contact.jsx'
 // import Home from './pages/Home.jsx'
 // import { AuthLayout, Login } from './components/index.js'
 
@@ -46,6 +50,22 @@ const router = createBrowserRouter([
         {
             path: "/addVendors",
             element: <AddVendors />,
+        },
+        {
+            path: "/service/:data1",
+            element: <ServicesPageCustomePage />,
+        },
+        {
+            path: "/about",
+            element: <HomePageAbout />,
+        },
+        {
+            path: "/teams",
+            element: <TeamsPage />,
+        },
+        {
+            path: "/contact",
+            element: <Contact />,
         },
         // {
         //     path: "/login",
