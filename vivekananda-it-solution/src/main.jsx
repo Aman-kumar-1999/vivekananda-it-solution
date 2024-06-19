@@ -47,13 +47,17 @@ const router = createBrowserRouter([
             path: "/",
             element: <HomePage />,
         },
-        {
-            path: "/addVendors",
-            element: <AddVendors />,
-        },
+        
         {
             path: "/service/:data1",
             element: <ServicesPageCustomePage />,
+            // children:
+            // [
+            //   {
+            //   path: "/addVendors",
+            //   element: <AddVendors />,
+            //   },
+            // ],
         },
         {
             path: "/about",

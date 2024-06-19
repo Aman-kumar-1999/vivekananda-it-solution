@@ -1,11 +1,28 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import AOS from 'aos';
 
 export default function TeamsPage() {
+
+    useEffect(() => {
+        AOS.init({
+          duration: 1000, // Duration of animation (in milliseconds)
+          easing: 'ease-in-out', // Easing type
+          once: true // Whether animation should only happen once
+          // More options can be found in the AOS documentation
+        });
+      }, []);
+
     return (
         <>
+
+
+
             <br />
-                <br />
-                <br />
+            <br />
+            <br />
+            <br />
+            
+
             <section id="team" class="team section">
 
                 {/* <!-- Section Title --> */}
@@ -96,6 +113,7 @@ export default function TeamsPage() {
                 </div>
 
             </section>
+
         </>
     )
 }

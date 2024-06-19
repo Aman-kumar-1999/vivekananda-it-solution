@@ -120,8 +120,7 @@ export default function HomeWhy() {
         </div>
 
       </section>
-      {/* <!-- /Why Us Section --> */}
-
+      
       <section id="skills" className="skills section">
 
         <div className="container" data-aos="fade-up" data-aos-delay="100" >
@@ -158,15 +157,14 @@ export default function HomeWhy() {
                     <div className="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
                 </div>
-                {/* <!-- End Skills Item --> */}
-
+                
                 <div className="progress">
                   <span className="skill"><span>JavaScript</span> <i className="val">75%</i></span>
                   <div className="progress-bar-wrap">
                     <div className="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
                 </div>
-                {/* <!-- End Skills Item --> */}
+                
 
                 <div className="progress">
                   <span className="skill"><span>Angular JS</span> <i className="val">55%</i></span>
@@ -174,8 +172,7 @@ export default function HomeWhy() {
                     <div className="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
                 </div>
-                {/* <!-- End Skills Item --> */}
-
+               
               </div>
 
             </div>
@@ -184,8 +181,7 @@ export default function HomeWhy() {
         </div>
 
       </section>
-      {/* <!-- /Skills Section --> */}
-
+     
     </>
   )
 }

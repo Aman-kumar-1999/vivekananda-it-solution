@@ -132,14 +132,14 @@ return (
                         ><span>Services</span> <i className="bi bi-chevron-down toggle-dropdown"></i></Link>
                             <ul>
                                 {/* <li><Link href="#">Services</Link></li> */}
-                                <li><Link to={`/service/${encodeURIComponent(jsonData1)}`} >Custom Software Development</Link></li>
-                                <li><Link to={`/service/${encodeURIComponent(jsonData2)}`} >Web and Mobile App Development</Link></li>
-                                <li><Link to={`/service/${encodeURIComponent(jsonData3)}`}>Cloud Migration and Integration</Link></li>
-                                <li><Link to={`/service/${encodeURIComponent(jsonData4)}`}>IT Consulting and Strategy</Link></li>
-                                <li><Link to={`/service/${encodeURIComponent(jsonData5)}`}>Quality Assurance and Testing</Link></li>
-                                <li><Link to={`/service/${encodeURIComponent(jsonData6)}`}>Support and Maintenance</Link></li>
-                                <li><Link to={`/service/${encodeURIComponent(jsonData7)}`}>UX/UI Design</Link></li>
-                                <li><Link to={`/service/${encodeURIComponent(jsonData8)}`}>Data Analytics and Business Intelligence</Link></li>
+                                <li><Link to={`/service/${encodeURIComponent(jsonData1)}`} onClick={scrollClickHome}>Custom Software Development</Link></li>
+                                <li><Link to={`/service/${encodeURIComponent(jsonData2)}`} onClick={scrollClickHome}>Web and Mobile App Development</Link></li>
+                                <li><Link to={`/service/${encodeURIComponent(jsonData3)}`} onClick={scrollClickHome}>Cloud Migration and Integration</Link></li>
+                                <li><Link to={`/service/${encodeURIComponent(jsonData4)}`} onClick={scrollClickHome}>IT Consulting and Strategy</Link></li>
+                                <li><Link to={`/service/${encodeURIComponent(jsonData5)}`} onClick={scrollClickHome}>Quality Assurance and Testing</Link></li>
+                                <li><Link to={`/service/${encodeURIComponent(jsonData6)}`} onClick={scrollClickHome}>Support and Maintenance</Link></li>
+                                <li><Link to={`/service/${encodeURIComponent(jsonData7)}`} onClick={scrollClickHome}>UX/UI Design</Link></li>
+                                <li><Link to={`/service/${encodeURIComponent(jsonData8)}`} onClick={scrollClickHome}>Data Analytics and Business Intelligence</Link></li>
                                 {/* <li className="dropdown"><Link href="#"><span>Deep Dropdown</span> <i className="bi bi-chevron-down toggle-dropdown"></i></Link>
                                         <ul>
                                             <li><Link href="#">Deep Dropdown 1</Link></li>
@@ -154,13 +154,13 @@ return (
                                     <li><Link href="#">Dropdown 4</Link></li> */}
                             </ul>
                         </li>
-                        <li><Link to={"/about"} >About</Link></li>
+                        <li><Link to={"/about"} onClick={scrollClickHome}>About</Link></li>
                         {/* <li><Link href="index.html#services">Services</Link></li> */}
                         {/* <li><Link href="index.html#portfolio">Portfolio</Link></li> */}
-                        <li><Link to={"/teams"} >Team</Link></li>
+                        <li><Link to={"/teams"} onClick={scrollClickHome}>Teams</Link></li>
                         {/* <li><Link href="index.html#pricing">Pricing</Link></li> */}
 
-                        <li><Link to={"/contact"} >Contact</Link></li>
+                        <li><Link to={"/contact"} onClick={scrollClickHome}>Contact</Link></li>
                     </ul>
                     {/* <i className="mobile-nav-toggle d-xl-none bi bi-list"></i> */}
                 </nav>
